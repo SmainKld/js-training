@@ -152,15 +152,15 @@ the style
 
 ## Automated test
 We recommand to use [Travis](https://travis-ci.org) to automatise the testing phase, allow this repo and add this code in your README
-`[![Build Status](https://travis-ci.org/GITHUB_LOGIN/js-training.svg?branch=master)](https://travis-ci.org/GITHUB_LOGIN/js-training)`
-by remplacing GITHUB_LOGIN by your github login
+[![Build Status](https://travis-ci.org/SmainKld/js-training.svg?branch=master)](https://travis-ci.org/GITHUB_LOGIN/js-training)
+by remplacing SmainKld by your github login
 
 ## Contribute
 We greatly recommand you to add your own tests to this list
 
 - add your test file *(ex: `exercises/my-test.js`)*
 - edit `package.json` and add `"my-test"` to the `"tests"` array with the syntax `{"tag": X, "name": NAME}` where you replace the tag (x) and the name (NAME)
-- make a pull request !`https://github.com/nan-academy/js-training/compare/master...GITHUB_LOGIN:master`
+- make a pull request !`https://github.com/nan-academy/js-training/compare/master...SmainKld:master`
 
 *All the tests must be written using [assert](https://nodejs.org/api/assert.html)
 for `./tester` to work properly.*

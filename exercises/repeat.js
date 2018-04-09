@@ -1,12 +1,21 @@
 'use strict'
 
 /*
- * Create a `repeat` function that takes a string and a number as parameters
+ * Create a function `repeat` that takes a String and a Number
  * and return the repeated string by the given number
  * Like the method https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
  * Of course you may not use the method directly
  *
  */
+
+const repeat = (a, b) => {
+	let empt = []
+	for (let i = 0; i < b; i++) {
+		empt.push(a) 
+	}
+	return empt.join("")
+}
+
 
 //* Begin of tests
 const assert = require('assert')

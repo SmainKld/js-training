@@ -8,6 +8,25 @@
  * @notions Primitive and Operators, Functions, While
  */
 
+const multiply = (a,b) => {
+	if (b > 0) {
+		let mult = a 
+		for (let i = 1; i < b; i++) {
+			mult = mult + a
+		}
+		return mult
+	}
+	else {
+		let multN = a  
+		for (let i = 1; i > b; i--) {
+			multN = multN - a
+		}
+		return multN
+	}
+		
+}
+	
+
 // Your code :
 
 //* Begin of tests

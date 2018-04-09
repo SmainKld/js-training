@@ -1,15 +1,19 @@
 'use strict'
 
 /*
- * Create a `whisper` function that takes a string
- * and return the same string in lower case
- * and wrapped by `*`
+ * Create a function `whisper` that takes a string
+ * and return the same string but all in lower case
  *
  */
 
+const whisper = (s) => {
+	let n = s.toLowerCase() 
+ 	return n
+}
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+
+assert.deepStrictEqual(whisper('FUCKCHRIS'), ('fuckchris'))
 // End of tests */
